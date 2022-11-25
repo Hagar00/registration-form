@@ -1,0 +1,53 @@
+<div class="container mt-3 mb-3">
+  <div class="row">
+      <div class="banner">
+          <img src="../../../assets/images/2.jpeg" alt="banner not found" class="w-100">
+      </div>
+      <div class="content">
+        <div class="header mt-4">
+          <div class="head"></div>
+          <h3 class="text-center mt-4">استمارة حجز العميد فى الجغرافيا</h3>
+          <h5 class="text-center mt-3">أ / أسامة صيام</h5>
+          <div class="forms mt-5 pe-5 w-75 m-auto">
+            <form [formGroup]="register" (ngSubmit)="addUser()">
+              <div class="row mt-5">
+                <label for="name" class="col-3"> اسم الطالب</label>
+                <input type="text" name="name" id="name" class="col-7" formControlName="name" #name>
+              </div>
+              <div class="row mt-3">
+                <label for="year"  class="col-3"> السنة الدراسية للطالب </label>
+                <input type="text" name="year" id="year" class="col-7" formControlName="year" #year>
+              </div>
+              <div class="row mt-3">
+                <label for="stPhone" class="col-3"> رقم تيليفون الطالب </label>
+                <input type="text" name="stPhone" id="stPhone" class="col-7" formControlName="stPhone" #stPhone>
+              </div>
+              <div class="row mt-3">
+                <label for="wPhone" class="col-3" >رقم تيليفون  (whats app)  </label>
+                <input type="text" name="wPhone" id="wPhone" class="col-7" formControlName="wPhone" #wPhone>
+              </div>
+              <div class="row mt-3">
+                <label for="paPhone" class="col-3"> رقم تيليفون ولى الامر  </label>
+                <input type="text" name="paPhone" id="paPhone" class="col-7" formControlName="paPhone" #paPhone >
+              </div>
+              <div class="row mt-3">
+                <label for="zone" class="col-3">  اسم المنطقة </label>
+                <input type="text" name="zone" id="zone" class="col-7" formControlName="zone" #zone>
+              </div>
+              <div class="row mt-3">
+                <label for="covertant" class="col-3"> اسم المحافظة </label>
+                <input type="text" name="covertant" id="covertant" class="col-7" formControlName="covertant" #covertant>
+              </div>
+              <div class="row mt-3">
+                <label for="senter" class="col-3"> اسم السنتر التى ترغب الالتحاق به  </label>
+                <input type="text" name="senter" id="senter"  class="col-7" formControlName="senter" #senter>
+              </div>
+              <div class="row mt-5 mb-4">
+                <button type="submit" class="btn btn-success w-25 m-auto">تسجيل </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

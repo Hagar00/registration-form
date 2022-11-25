@@ -1,0 +1,29 @@
+.custom-img{
+  margin-top: 100px;
+  justify-content:left;
+  border: 1px solid ;
+  height: 550px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: rgba(121, 121, 140, 0.723);
+}
+.image
+{
+  margin-top: 20px;
+  width: 300px;
+  height: 450px;
+
+}
+.txt
+{
+  margin-top: 150px;
+  color: white;
+  font-size: 18px;
+}
+.txt a{
+  color: rgb(124, 3, 3);
+  font-size: 20px;
+}

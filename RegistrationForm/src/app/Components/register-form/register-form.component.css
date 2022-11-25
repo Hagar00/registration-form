@@ -1,0 +1,47 @@
+
+.banner img
+{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.header{
+  background-color: rgb(235, 235, 237);
+  border: 1px solid #404258;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.head{
+  height: 15px;
+  background-color: #404258;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.forms
+{
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+label{
+  color: rgb(15, 15, 70);
+  font-size: 18px;
+  font-weight: 500;
+}
+input{
+  border: none;
+  background-color: rgb(202, 197, 197);
+  height: 37px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
